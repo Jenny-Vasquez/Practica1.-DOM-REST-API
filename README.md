@@ -1,4 +1,4 @@
-# Practica1.-DOM-REST-API# Proyecto de Notas
+# Proyecto de Notas
 
 Este proyecto es una aplicación de gestión de notas, donde se pueden agregar, clasificar y filtrar notas por importancia y fecha. La aplicación cuenta con una API en Node.js y una interfaz web para visualizar y gestionar las notas.
 
