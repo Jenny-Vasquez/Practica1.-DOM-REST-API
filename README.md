@@ -86,23 +86,28 @@ La interfaz web es accesible desde `index.html`. Incluye las siguientes seccione
 
 ### Ejemplo de Uso en Postman
 
-![Postman - Verificación de Endpoints](ruta-a-la-imagen-1)
+![Postman - Verificación de Endpoints](notas-proyecto/imagenes/imagen1.png)
+![Postman - Verificación de Endpoints2](notas-proyecto/imagenes/imagen2.png)
+### Base de Datos
+![MongoDB ](notas-proyecto/imagenes/ip.png)
+![MongoDB ](notas-proyecto/imagenes/mongodb.png)
+![MongoDB ](notas-proyecto/imagenes/database.png)
 
 ### Vista de la API
 
-![Vista de la API](ruta-a-la-imagen-2)
+![Vista de la API](notas-proyecto/imagenes/imagen3.png)
 
 ### Listado de Notas
 
 En esta sección, podemos ver las notas añadidas, donde las importantes están señaladas.
 
-![Listado de Notas](ruta-a-la-imagen-3)
+![Listado de Notas](notas-proyecto/imagenes/imagen4.png)
 
 ### Filtrado por Mes
 
 Esta sección muestra el filtrado de notas según el mes de creación.
 
-![Filtrado por Mes](ruta-a-la-imagen-4)
+![Filtrado por Mes](notas-proyecto/imagenes/imagen5.png)
 
 ## Autor
 
