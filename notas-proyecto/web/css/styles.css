@@ -1,0 +1,140 @@
+/* ---------- VARIABLES ---------- */
+:root {
+    --primary-color: #1e5753; /* Color principal */
+    --secondary-color: #133f3b; /* Color secundario */
+    --background-color: #f4f4f4; /* Color de fondo */
+    --text-color: #333; /* Color del texto */
+    --border-radius: 5px; /* Radio de borde para elementos */
+    --font-family: 'Montserrat', sans-serif; /* Fuente principal */
+}
+
+/* ---------- ESTILOS GENERALES ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/* ---------- HEADER ---------- */
+header {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* ---------- MAIN ---------- */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* ---------- BOTONES ---------- */
+button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+}
+
+/* ---------- FORMULARIO ---------- 
+#form {
+    background: white;
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}*/
+
+fieldset {
+    border: none;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* ---------- TEXTAREA ---------- */
+textarea {
+    width: 100%;
+    border-radius: var(--border-radius);
+    border: 1px solid #ccc;
+    padding: 10px;
+    resize: vertical; /* Permitir cambio de tamaño vertical */
+}
+
+textarea:focus {
+    border-color: var(--primary-color);
+    outline: none;
+}
+
+/* ---------- TABLA ---------- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: var(--primary-color);
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    button {
+        width: 100%; /* Botón ocupa el ancho completo en dispositivos móviles */
+    }
+}

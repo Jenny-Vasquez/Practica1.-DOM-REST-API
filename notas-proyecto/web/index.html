@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Notes</title>
+    <link rel="stylesheet" href="css/styles.css"> 
+</head>
+<body>
+    
+    <header>
+        <h1>Notes</h1>
+    </header>
+
+    <main>
+        <button onclick="verForm()">Add Note</button>
+
+        <div id="form" style="display:none;"> 
+            <form id="newNote" onsubmit="return false;"> 
+                <fieldset>
+                    <legend>Select the importance of the note:</legend>
+                    <div>
+                        <input type="radio" id="category-1" name="category" value="important" required />
+                        <label for="category-1">Important</label>
+                        <input type="radio" id="category-2" name="category" value="normal" required />
+                        <label for="category-2">Normal</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Content</legend>
+                    <div>
+                        <textarea id="content" rows="4" cols="50" required placeholder="Write your note here..."></textarea>
+                    </div>
+                </fieldset>
+
+                <div>
+                    <button type="submit" onclick="onSubmit()">Save</button>
+                </div>
+            </form>
+        </div>
+        <div>
+            <label for="filterMonth">Filtrar por mes:</label>
+            <input type="month" id="filterMonth"  min="2024-1"value="2024-10">
+            <button id="filterButton" onclick="filtrar()">Filtrar</button>
+        </div>
+        <!-- Table to list the notes -->
+        <table id="list-notes">
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Content</th>
+                    <th>Create At</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Notes will be added here dynamically -->
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Jenny P Vásquez Calero | All rights reserved.</p>
+    </footer>
+</body>
+</html>
+    <script src="./src/script.js"></script>
+</body>
+</html>
