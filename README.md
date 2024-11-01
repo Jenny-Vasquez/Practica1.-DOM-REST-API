@@ -32,7 +32,7 @@ Este proyecto es una aplicación de gestión de notas, donde se pueden agregar, 
 
 1. **Clona el repositorio** en tu máquina local:
    ```bash
-   git clone <URL-del-repositorio>
+   git clone (https://github.com/Jenny-Vasquez/Practica1.-DOM-REST-API)
    cd notas-proyecto
    ```
 
@@ -65,7 +65,7 @@ Este proyecto es una aplicación de gestión de notas, donde se pueden agregar, 
 
 ### Verificación con Postman
 
-Para verificar que los métodos **POST**, **GET**, y **UPDATE** funcionan correctamente, hemos utilizado Postman. Asegúrate de que el servidor está en ejecución antes de probar los endpoints.
+Para verificar que los métodos **POST**, **GET**, **DELETE** **PUT** funcionan correctamente, hemos utilizado Postman. Asegúrate de que el servidor está en ejecución antes de probar los endpoints.
 
 ## Funcionalidades
 
